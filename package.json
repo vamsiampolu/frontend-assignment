@@ -1,0 +1,25 @@
+{
+  "name": "frontend-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm ./bundle.js",
+    "start": "python -m SimpleHTTPServer",
+    "test": "jest",
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "jest": "^26.6.3",
+    "rollup": "^2.33.3",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
